@@ -13,7 +13,7 @@ module Watchr
   module Bin
     extend self
 
-    DEFAULT_SCRIPT_PATH = Pathname.new('specs.watchr')
+    DEFAULT_SCRIPT_PATH = Pathname.new('.watchr')
 
     attr_accessor :path
 
